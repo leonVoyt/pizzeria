@@ -1,0 +1,30 @@
+.main-page {
+  background-image: url(../../assets/wood-2045380_1920\ 1.png);
+  background-repeat: repeat-y;
+  background-size: 100% 100%;
+  background-color: bisque;
+  color: white;
+  display: flex;
+  height: calc(91vh);
+  z-index: 1;
+  position: relative;
+}
+.main-page__pizza--image {
+  width: 100%;
+  display: block;
+  background-image: url(../../assets/pizza-3000285_1920\ 1.png);
+  background-repeat: no-repeat;
+
+  background-size: 80%;
+  background-position-x: center;
+  background-position-y: bottom;
+  z-index: 2;
+}
+.main-page__shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/Rectangle\ 2.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}

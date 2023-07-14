@@ -1,0 +1,37 @@
+.navBar {
+  background-color: black;
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 1em;
+}
+.navBar__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navBar__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.navBar__navigation p {
+  padding: 1em;
+  cursor: pointer;
+}
+.navBar__navigation p:hover {
+  background-color: white;
+  color: black;
+  border-radius: 1em;
+}
+.navBar__logo:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .navBar__navigation {
+    display: none;
+  }
+}
