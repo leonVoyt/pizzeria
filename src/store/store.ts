@@ -1,6 +1,9 @@
+import { pizzaReducer } from './reducers/pizzaReducer'
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
 
-const rootReducer = combineReducers({})
+const rootReducer = combineReducers({
+  pizza: pizzaReducer,
+})
 export const setupStore = () => {
   return configureStore({
     reducer: rootReducer,

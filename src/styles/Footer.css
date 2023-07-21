@@ -2,6 +2,8 @@
   padding: 1em;
   background-color: black;
   color: white;
-  font-size: 16px;
+  font-size: calc(16px + 2 * ((100vw) / 1280));
   text-align: center;
+  position: relative;
+  z-index: 3;
 }

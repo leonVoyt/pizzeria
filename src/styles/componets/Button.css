@@ -1,0 +1,17 @@
+.button {
+  background-color: black;
+  font-family: Ruda;
+  font-weight: bold;
+  color: yellow;
+  padding: 0.5rem;
+  border: 1px solid yellow;
+  cursor: pointer;
+  font-size: 12px;
+}
+.button:hover {
+  background-color: yellow;
+
+  color: black;
+  border: 1px solid rgb(0, 0, 0);
+  transform: scale(1.1);
+}
