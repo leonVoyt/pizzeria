@@ -1,4 +1,3 @@
-import axios from 'axios'
 import { Dispatch } from 'redux'
 import { PizzaAction, PizzaActionTypes } from '../../types/pizza'
 import { pizzaArray } from '../../utils/Array'

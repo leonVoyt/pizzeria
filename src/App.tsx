@@ -19,7 +19,7 @@ import Constructor from './pages/Constructor'
 const App = () => {
   return (
     <BrowserRouter>
-      <NavBar />
+      <NavBar children />
       <Routes>
         <Route path={MAIN_ROUTE} element={<MainPage />}></Route>
         <Route path={CONTACTS_ROUTE} element={<Contacts />}></Route>

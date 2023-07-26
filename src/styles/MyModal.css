@@ -1,0 +1,56 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  opacity: 0;
+  pointer-events: none;
+
+  transition: 0.5s;
+  color: black;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.modal__content {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: white;
+  width: 50vw;
+  height: 95vh;
+  transform: translateX(100%);
+  transition: 0.6s;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+.modal.activee {
+  opacity: 1;
+  pointer-events: all;
+}
+.modal__content.activee {
+  transform: translateX(0%);
+  transition: 0.6s;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.modal__content--item {
+  width: 100%;
+  min-height: fit-content;
+  text-align: center;
+}
+.modal__content--total-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal__content--total-price button {
+  margin: 0.5rem 0;
+  min-width: 50%;
+}

@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: space-around;
   cursor: pointer;
+  position: relative;
 }
 .burger__line {
   width: 80%;

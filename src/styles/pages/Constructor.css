@@ -3,22 +3,132 @@
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
-  /* padding-top: -1rem; */
+  padding-inline: 2rem;
   position: relative;
 }
+.constructor__form--container {
+  background-image: url(../../assets/138.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 0;
+  width: 100%;
+  min-height: 200px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: calc(12px + 4 * (100vw / 1280));
+  margin-block: auto;
+  z-index: -2;
+}
+
+.constructor__text {
+  text-align: center;
+}
+.constructor__text p {
+  font-size: calc(18px + 4 * (100vw / 1280));
+}
 .constructor__form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  min-height: 450px;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.constructor__price {
+  background-image: url(../../assets/kisspng-amazon-com-pet-plastic-mealworm-wood-board-5ae05da82f3881.7317926515246534801934.png);
+  background-repeat: no-repeat;
+  background-size: 100% 115%;
+  background-position: 0 -40px;
   width: 50%;
+  min-height: calc(450px + 80 * (100vw / 1280));
+  text-align: center;
+  font-size: calc(12px + 12 * (100vw / 1280));
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.constructor__form div img:hover {
+  transform: scale(1.2);
+}
+.constructor__form--item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  padding: 0.5rem;
+}
+
+.constructor__ingredients {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  border: 3px solid yellow;
 }
-.constructor__form div {
-  margin: 1rem;
+
+.constructor__ingredients--minus {
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  background-color: white;
+  width: 30px;
+  height: 7px;
+  display: flex;
+  margin-right: 1rem;
 }
-.constructor__form div img:hover {
+.constructor__ingredients--minus:hover {
   transform: scale(1.2);
+}
+
+.constructor__price--1 {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.constructor__price--total {
+  display: flex;
+  justify-content: center;
+}
+.constructor__price--contatiner {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-block: auto;
+}
+
+.constructor__price--button button {
+  width: 30%;
+  margin-top: 1rem;
+}
+.constructor__form--diametr {
+  margin-top: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .constructor {
+    flex-direction: column;
+    align-items: center;
+  }
+  .constructor__form--container {
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: fit-content;
+  }
+
+  .constructor__price {
+    width: 100%;
+  }
+
+  .constructor__form--item {
+    margin-bottom: 1rem;
+    border-bottom: 3px solid black;
+  }
 }

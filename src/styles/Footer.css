@@ -5,5 +5,5 @@
   font-size: calc(16px + 2 * ((100vw) / 1280));
   text-align: center;
   position: relative;
-  z-index: 3;
+  z-index: 2;
 }

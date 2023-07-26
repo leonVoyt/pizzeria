@@ -70,7 +70,13 @@ const About = () => {
           <img src={menu1} alt="" />
           <img src={menu2} alt="" />
         </div>
-        <Button text="TO MENU" onClick={() => history(MENU_ROUTE)} />
+        <Button
+          text="TO MENU"
+          onClick={() => {
+            history(MENU_ROUTE)
+            window.scrollTo(0, 0)
+          }}
+        />
       </div>
     </div>
   )

@@ -44,6 +44,15 @@ h1 {
 .menu__pizza-item__text {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+}
+
+.menu__pizza-item--button {
+  text-align: center;
+}
+.menu__pizza-item--button button {
+  margin-top: 1rem;
+  min-width: 30%;
 }
 .menu__pizza-item__text--top {
   display: flex;
@@ -67,10 +76,7 @@ h1 {
   border-radius: 25%;
 }
 .menu__pizza-item:hover {
-  /* background-color: antiquewhite; */
-  /* color: yellow; */
   transform: scale(1.01);
-  /* border: white solid 3px; */
 }
 .menu .line:hover {
   cursor: pointer;

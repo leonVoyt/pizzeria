@@ -1,3 +1,5 @@
+import { IPizzaItem } from '../models/IPizzaItem'
+
 export const pizzaArray = [
   {
     id: 1,
@@ -62,4 +64,12 @@ export const pizzaArray = [
     img: 'pizza-2000614_1920 1.png',
     type: 'pizza',
   },
+]
+export const Ingredients: IPizzaItem[] = [
+  { id: 1, name: 'tomatoes', price: 12 },
+  { id: 2, name: 'bekon', price: 20 },
+  { id: 3, name: 'ketchup', price: 10 },
+  { id: 4, name: 'sausage', price: 18 },
+  { id: 5, name: 'onion', price: 15 },
+  { id: 6, name: 'cheese', price: 18 },
 ]
