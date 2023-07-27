@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pizzeria/static/css/main.f4b0d2af.css",
-    "main.js": "/pizzeria/static/js/main.76aa496e.js",
+    "main.js": "/pizzeria/static/js/main.0f7dd90f.js",
     "static/media/artage-io-1769151_1690215860.png": "/pizzeria/static/media/artage-io-1769151_1690215860.8181bd5c8e6506dd43bb.png",
     "static/media/wood-2045380_1920 1.png": "/pizzeria/static/media/wood-2045380_1920 1.764e279eb4add98620a5.png",
     "static/media/138.png": "/pizzeria/static/media/138.391eb48bc8eeddf31e02.png",
@@ -23,10 +23,10 @@
     "static/media/shopping-basket.png": "/pizzeria/static/media/shopping-basket.bfc6135ebaf15ddd7ecb.png",
     "index.html": "/pizzeria/index.html",
     "main.f4b0d2af.css.map": "/pizzeria/static/css/main.f4b0d2af.css.map",
-    "main.76aa496e.js.map": "/pizzeria/static/js/main.76aa496e.js.map"
+    "main.0f7dd90f.js.map": "/pizzeria/static/js/main.0f7dd90f.js.map"
   },
   "entrypoints": [
     "static/css/main.f4b0d2af.css",
-    "static/js/main.76aa496e.js"
+    "static/js/main.0f7dd90f.js"
   ]
 }
