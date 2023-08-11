@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pizzeria/static/css/main.f4b0d2af.css",
-    "main.js": "/pizzeria/static/js/main.0f7dd90f.js",
+    "main.css": "/pizzeria/static/css/main.d331dd31.css",
+    "main.js": "/pizzeria/static/js/main.efab19fb.js",
     "static/media/artage-io-1769151_1690215860.png": "/pizzeria/static/media/artage-io-1769151_1690215860.8181bd5c8e6506dd43bb.png",
     "static/media/wood-2045380_1920 1.png": "/pizzeria/static/media/wood-2045380_1920 1.764e279eb4add98620a5.png",
     "static/media/138.png": "/pizzeria/static/media/138.391eb48bc8eeddf31e02.png",
@@ -9,6 +9,7 @@
     "static/media/restaurant-5521372_1920 1.png": "/pizzeria/static/media/restaurant-5521372_1920 1.e41007f276c64a6e6e9c.png",
     "static/media/pizza-3000285_1920 1.png": "/pizzeria/static/media/pizza-3000285_1920 1.454545c2e0bf60080884.png",
     "static/media/artage-io-1769163_1690224290.png": "/pizzeria/static/media/artage-io-1769163_1690224290.632cef4c738a383bd241.png",
+    "static/media/board.jpg": "/pizzeria/static/media/board.b0134320cbb4455bc8f6.jpg",
     "static/media/menu1.png": "/pizzeria/static/media/menu1.171ca176165f7cda2c5c.png",
     "static/media/menu2.png": "/pizzeria/static/media/menu2.da5b88c89b3e66bfd8e1.png",
     "static/media/kisspng-amazon-com-pet-plastic-mealworm-wood-board-5ae05da82f3881.png": "/pizzeria/static/media/kisspng-amazon-com-pet-plastic-mealworm-wood-board-5ae05da82f3881.7317926515246534801934.329c8ad485c6d7531465.png",
@@ -22,11 +23,11 @@
     "static/media/220802.png": "/pizzeria/static/media/220802.1bba4de2017ae16140a1.png",
     "static/media/shopping-basket.png": "/pizzeria/static/media/shopping-basket.bfc6135ebaf15ddd7ecb.png",
     "index.html": "/pizzeria/index.html",
-    "main.f4b0d2af.css.map": "/pizzeria/static/css/main.f4b0d2af.css.map",
-    "main.0f7dd90f.js.map": "/pizzeria/static/js/main.0f7dd90f.js.map"
+    "main.d331dd31.css.map": "/pizzeria/static/css/main.d331dd31.css.map",
+    "main.efab19fb.js.map": "/pizzeria/static/js/main.efab19fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4b0d2af.css",
-    "static/js/main.0f7dd90f.js"
+    "static/css/main.d331dd31.css",
+    "static/js/main.efab19fb.js"
   ]
 }
