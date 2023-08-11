@@ -6,7 +6,7 @@
   padding: 0.5rem;
   border: 1px solid yellow;
   cursor: pointer;
-  font-size: calc(0.3rem + 6 * (100vw / 1280));
+  font-size: calc(0.6rem + 4 * (100vw / 1280));
 }
 .button:hover {
   background-color: yellow;

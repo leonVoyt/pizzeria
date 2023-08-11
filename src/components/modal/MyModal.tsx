@@ -16,6 +16,7 @@ const MyModal: React.FC<MyModalProps> = ({ active, setActive, children }) => {
   let { basketItem, loading, error } = useTypeSelector(
     (state) => state.basketItem
   )
+  useAction()
 
   return (
     <div className={`modal ${active && 'activee'}`} onClick={() => setActive()}>
@@ -23,10 +24,13 @@ const MyModal: React.FC<MyModalProps> = ({ active, setActive, children }) => {
         className={`modal__content ${active && 'activee'}`}
         onClick={(e) => e.stopPropagation()}
       >
+        <div className="close_btn">
+          <Button onClick={() => setActive()} text="checkout" />
+        </div>
+
         <Line text="BASKET" />
         <div className="modal__content--total-price">
           total price :{basketItem.reduce((acc, curr) => acc + curr.price, 0)} $
-          <Button onClick={() => console.log()} text="checkout" />
         </div>
         <div className="modal__content--item">
           {basketItem.length !== 0 ? (

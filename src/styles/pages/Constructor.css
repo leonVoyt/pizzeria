@@ -1,5 +1,8 @@
 .constructor {
   min-height: calc(100vh - 70px);
+  background-image: url(../../assets/wood-2045380_1920\ 1.png);
+  background-repeat: repeat-y;
+  background-size: 100% 100vh;
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
@@ -7,9 +10,11 @@
   align-items: flex-start;
   padding-inline: 2rem;
   position: relative;
+  flex-wrap: wrap;
+  column-gap: 20px;
 }
 .constructor__form--container {
-  background-image: url(../../assets/138.png);
+  background-image: url(../../assets/board.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: 0;
@@ -35,7 +40,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 70%;
+  width: 55%;
   min-height: 450px;
   align-items: center;
   position: relative;
@@ -43,12 +48,7 @@
 }
 
 .constructor__price {
-  background-image: url(../../assets/kisspng-amazon-com-pet-plastic-mealworm-wood-board-5ae05da82f3881.7317926515246534801934.png);
-  background-repeat: no-repeat;
-  background-size: 100% 115%;
-  background-position: 0 -40px;
-  width: 50%;
-  min-height: calc(450px + 80 * (100vw / 1280));
+  width: 35%;
   text-align: center;
   font-size: calc(12px + 12 * (100vw / 1280));
   padding: 1rem;
@@ -98,14 +98,17 @@
   justify-content: center;
 }
 .constructor__price--contatiner {
-  width: 60%;
+  background-image: url(../../assets/board.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin-block: auto;
+  padding: 2rem;
 }
 
 .constructor__price--button button {
-  width: 30%;
   margin-top: 1rem;
 }
 .constructor__form--diametr {
@@ -130,5 +133,8 @@
   .constructor__form--item {
     margin-bottom: 1rem;
     border-bottom: 3px solid black;
+  }
+  .constructor__form {
+    row-gap: 30px;
   }
 }

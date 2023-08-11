@@ -17,7 +17,9 @@ const BasketItem: React.FC<PostItemProps> = ({ pizza }) => {
 
   return (
     <div className="basket-item">
-      <img src={require(`../assets/${pizza.img}`)} alt="" />
+      <div className="basket-item--image">
+        <img src={require(`../assets/${pizza.img}`)} alt="" />
+      </div>
       <div className="basket-item__text">
         <div className="basket-item__text--top">
           <h1>{pizza.name}</h1>

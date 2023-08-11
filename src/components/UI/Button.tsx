@@ -6,7 +6,7 @@ interface ButtonUser {
 }
 const Button: React.FC<ButtonUser> = ({ text, onClick }) => {
   return (
-    <button className="button" onClick={onClick}>
+    <button className="button modal__close" onClick={onClick}>
       {text}
     </button>
   )
